@@ -1,3 +1,4 @@
+/* This container class I workshopped with my mentor so it includees things I don't really understand but it enabled my page to look better */
 .container {
     display: grid;
     grid-template-rows: 15% 70% 20%;
@@ -39,6 +40,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    /* This enabled my picture to be round - who knew? */
     border-radius: 100%;
     margin-top: 40px;
 }
@@ -47,6 +49,7 @@ article p {
     text-align: justify;
 }
 
+/* This took away the bullet points */
 ul {
     list-style-type: none;
     margin: 0;
@@ -63,6 +66,8 @@ footer {
 section p, footer h2 {
     text-align: center;
 }
+
+/* This section we monkeyed with while trying to both make the page more responsive as well as keep the footer from encroaching upwards */
 
 @media only screen and (max-width:360px) {
     body {
