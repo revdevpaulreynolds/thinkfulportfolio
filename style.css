@@ -19,11 +19,6 @@ header {
     font-size: 2em;
 }
 
-h1:hover {
-    color: hotpink;
-    background-color: limegreen;
-}
-
 .heading {
     text-align: center;
     font-size: 2em;
